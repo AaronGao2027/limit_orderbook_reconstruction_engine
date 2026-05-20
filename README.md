@@ -5,7 +5,7 @@ A low-latency limit orderbook reconstruction engine consolidating market by orde
 Following the Nasdaq TotalView-ITCH 5.0 documentation on the matching logic behind the matching engine, L3 MBO data from Databento is downloaded and stored as parquet files in a datalake. Reconstruction of specific securities over custom time periods showcase liquidity levels from each exchange at a tick by tick granularity.
 
 This is a snapshot of the limit orderbook showcasing the bid and ask depths of 14 independent orderbooks from different equity exchanges and the central limit orderbook. 
-<img width="2000" height="2828" alt="image" src="https://github.com/user-attachments/assets/2e9de17f-05ab-41a6-88d8-8096543b2f26" />
+<img width="2035" height="2262" alt="backtest_removed_jitter" src="https://github.com/user-attachments/assets/4ebe43b8-1b68-4896-8c83-36201c15db78" />
 
 The historical MBO data used in this analysis covers the entire trading day of the SPY ETF on March 23, 2026 (2026-03-23). It is stored in a parquet file that is too big to upload to Github (2.31 GB). I have uploaded the parquet file to a google drive and attached a link that can be used to access the shared google drive and download the parquet file. Using the parquet file, all the results generated in this project are reproducible on a local machine.
 
